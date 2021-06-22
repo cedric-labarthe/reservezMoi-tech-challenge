@@ -1,0 +1,47 @@
+.details__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.details__main-line {
+  display: flex;
+  margin: 10px;
+}
+
+.details__main-line p {
+  padding: 0 5px;
+}
+
+.details__comments {
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  margin: 10px 0;
+  width: 80vw;
+  overflow-wrap: break-word;
+  overflow-x: auto;
+}
+
+.details__comments-header {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.details__comments-header p {
+  margin: 0 5px;
+}
+
+.details__comments-header,
+.details__comments-body {
+  padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .details__comments {
+    margin: 10px 0;
+    width: 95vw;
+  }
+}
